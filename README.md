@@ -62,7 +62,18 @@ npx wdio
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Followings are the list of Softwares/Tools will be needed;
+* Nodejs
+* XCode
+* Android Studio (Android, adb, apk analyzer, emulator, ANDROID_HOME)
+* Java (JAVA_HOME)
+* Appium 2.0
+* Appium Drivers (UIAutomator2, XCUITest)
+* Appium-Doctor
+* Carthage
+* Apple Developers account
+  
+
 * npm
   ```sh
   npm install npm@latest -g
