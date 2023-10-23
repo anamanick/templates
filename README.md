@@ -40,17 +40,25 @@ Here's why:
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![WebdriverIO][webdriver.io]][webdriver-url]
-* [![Appium][appium.io]][Appium-url]
-* [![Mocha][Mocha]][mocha-url]
-* [![javascript][javascript]][javascript-url]
+* WebdriverIO
+* Appium
+* Mocha
+* javascript
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
+* npm install
+```sh
+npm install
+or
+npm install --force
+```
+* To Run Test
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+```sh
+npx wdio
+```
 
 ### Prerequisites
 
