@@ -41,8 +41,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * Mocha
 * javascript
 
-
-<!-- GETTING STARTED -->
 ## Getting Started
 * npm install
 ```sh
@@ -131,18 +129,18 @@ https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GU
 Now we need to add JAVA_HOME env. variable
 Open terminal and hit the following command
 ```sh
-- nano ~/.zshenv
+nano ~/.zshenv
 ```
 Add following lines
 ```sh
--export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME=$(/usr/libexec/java_home)
 ```
 #Save and Exit; run following command;
 ```sh
--source ~/.zshenv
+source ~/.zshenv
 ```
 
-## Misceleniuous Appium-doctor command
+## Miscellaneous Appium-doctor command
 - appium-doctor --android : to see the appium setup for android
 - appium-doctor --ios : to see setup for ios
 
@@ -162,7 +160,7 @@ Add following lines
 }
 ```
 
-## Various useful command
+## Various useful commands
 
 - adb devices : To see what device you are connected to (for android only)
 - xcrun simctl : To see what simulator is booted in you mac (iOS only)
