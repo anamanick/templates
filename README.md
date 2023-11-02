@@ -138,11 +138,11 @@ Add following lines
 -source ~/.zshenv
 ```
 
-Misceleniuous Appium-doctor command
+## Misceleniuous Appium-doctor command
 - appium-doctor --android : to see the appium setup for android
 - appium-doctor --ios : to see setup for ios
 
-Capabelities to connectoto a phone from appium inspector i.e. for android
+## Capabelities to connectoto a phone from appium inspector i.e. for android
 ```sh
 {
   'appium:platformName': 'Android',
@@ -158,7 +158,8 @@ Capabelities to connectoto a phone from appium inspector i.e. for android
 }
 ```
 
-Various useful command
+## Various useful command
+
 -adb devices : To see what device you are connected to (for android only)
 -xcrun simctl : To see what simulator is booted in you mac (iOS only)
 -npm cache clean --force : to clean npm cache
