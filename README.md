@@ -138,6 +138,7 @@ Misceleniuous Appium-doctor command
 - appium-doctor --ios : to see setup for ios
 
 Capabelities to connectoto a phone from appium inspector i.e. for android
+```sh
 {
   'appium:platformName': 'Android',
   'appium:platformVersion': '13.0',
@@ -150,6 +151,7 @@ Capabelities to connectoto a phone from appium inspector i.e. for android
   //'appium:appPackage' : 'com.distrokid.dk',
   'appium:appActivity' : 'com.distrokid.dk.MainActivity'
 }
+```
 
 Various useful command
 -adb devices : To see what device you are connected to (for android only)
