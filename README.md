@@ -126,12 +126,17 @@ https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GU
 Java Home Setup
 Now we need to add JAVA_HOME env. variable
 Open terminal and hit the following command
+```sh
 - nano ~/.zshenv
-#Add following lines
+```
+Add following lines
+```sh
 -export JAVA_HOME=$(/usr/libexec/java_home)
+```
 #Save and Exit; run following command;
+```sh
 -source ~/.zshenv
-
+```
 
 Misceleniuous Appium-doctor command
 - appium-doctor --android : to see the appium setup for android
@@ -159,5 +164,3 @@ Various useful command
 -npm cache clean --force : to clean npm cache
 -npm cache verify : to verify nom cache
 -npm ls -g : to see what npm package is installed globally in your system
-
-
