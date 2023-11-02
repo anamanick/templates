@@ -108,22 +108,22 @@ Install Following Components from SDK Tools
 - Android Emulator
 Click apply button and let it install all these components.
 
-Install Appium Inspector in order to manually Inspect the Application
+## Install Appium Inspector in order to manually Inspect the Application
 Download the .dmz if you use mac, and install it. When you launch first time, you may have to allow this software to be launched from privacy and security under settings
--https://github.com/appium/appium-inspector/releases/
+- https://github.com/appium/appium-inspector/releases/
 
-Environment Variables for Android SDK/emulator/tools and platform-tools
+## Environment Variables for Android SDK/emulator/tools and platform-tools
+```sh
 export ANDROID_HOME=/Users/{your username}/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-Java Setup
+```
+## Java Setup
 here is the documentation will help you download and install jdk
 https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE
 
-
-Java Home Setup
+## Java Home Setup
 Now we need to add JAVA_HOME env. variable
 Open terminal and hit the following command
 ```sh
@@ -160,8 +160,8 @@ Add following lines
 
 ## Various useful command
 
--adb devices : To see what device you are connected to (for android only)
--xcrun simctl : To see what simulator is booted in you mac (iOS only)
--npm cache clean --force : to clean npm cache
--npm cache verify : to verify nom cache
--npm ls -g : to see what npm package is installed globally in your system
+- adb devices : To see what device you are connected to (for android only)
+- xcrun simctl : To see what simulator is booted in you mac (iOS only)
+- npm cache clean --force : to clean npm cache
+- npm cache verify : to verify nom cache
+- npm ls -g : to see what npm package is installed globally in your system
