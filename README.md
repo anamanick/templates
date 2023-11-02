@@ -76,18 +76,22 @@ Download and Install Node js LTS version
 - https://nodejs.org/en/download
 
 Install Appium
-- npm install -g appium (this should install appium v2 latest version)
-
+```sh
+npm install -g appium
+```
 Install appium doctor
--npm install -g appium-doctor
+```sh
+npm install -g appium-doctor
+```
 
 Install drivers to run the test; we need UIAutomator2 for Android, XCUITest for ios
--appium driver install uiautomator2
--appium driver install xcuitest
-
-Install Android Studio
+```sh
+appium driver install uiautomator2
+appium driver install xcuitest
+```
+## Install Android Studio
 Download Install android studio from online
--https://developer.android.com/studio
+- https://developer.android.com/studio
 
 Once Android Studio is Installed; we need to install following components within Android Studio
 
