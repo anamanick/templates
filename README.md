@@ -12,7 +12,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#Local Dev. Env. Setup">Installation</a></li>
+        <li><a href="#Local Environment Setup">Installation</a></li>
       </ul>
     </li>
   </ol>
@@ -67,7 +67,7 @@ Followings are the list of Softwares/Tools will be needed;
 * Carthage (for iOS only)
 * Apple Developers account (for iOS only)
 
-### Local Dev. Env. Setup
+### Local Environment Setup
 
 In order to setup local environment; 
 Download and Install Node js LTS version
