@@ -127,9 +127,9 @@ Java Home Setup
 Now we need to add JAVA_HOME env. variable
 Open terminal and hit the following command
 - nano ~/.zshenv
-Add following lines
+#Add following lines
 -export JAVA_HOME=$(/usr/libexec/java_home)
-Save and Exit; run following command;
+#Save and Exit; run following command;
 -source ~/.zshenv
 
 
