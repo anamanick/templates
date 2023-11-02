@@ -12,7 +12,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#Local Environment Setup">Installation</a></li>
+        <li><a href="#local-environment-setup">Local Environment Setup</a></li>
       </ul>
     </li>
   </ol>
